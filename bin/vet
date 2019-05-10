@@ -1,0 +1,17 @@
+#!/usr/bin/env node
+
+// 引入命令行工具
+const program = require('commander');
+const pkg = require('../package.json');
+
+const newCli = require('../lib/new');
+
+program.version(pkg.version, '-v, --version')
+  .option('new', 'Creates a new project.')
+  .option('new --no-auto-install', 'Creates a new project, not auto install dependencies.')
+  .on('--help', function() {})
+  .parse(process.argv);
+
+if (program.new || program.n) {
+  newCli(process.argv);
+}

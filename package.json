@@ -1,6 +1,6 @@
 {
   "name": "vet-cli",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "vue electron template cli",
   "bin": {
     "vet": "./bin/vet"
@@ -13,7 +13,8 @@
     "url": "git+https://github.com/BingKui/vet-cli.git"
   },
   "keywords": [
-    "cli"
+    "cli",
+    "vet"
   ],
   "author": "康兵奎",
   "license": "MIT",

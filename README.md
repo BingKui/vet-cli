@@ -20,3 +20,5 @@ vet --help
 ## 模板项目地址
 
 [https://github.com/BingKui/VueElectronTemplate](https://github.com/BingKui/VueElectronTemplate)
+
+[更新日志](./CHANGELOG.md)

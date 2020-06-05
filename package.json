@@ -1,6 +1,6 @@
 {
   "name": "vet-cli",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "vue electron template cli",
   "bin": {
     "vet": "./bin/vet"
@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/BingKui/vet-cli#readme",
   "dependencies": {
+    "cfonts": "^2.8.2",
     "chalk": "^2.4.2",
     "commander": "^2.20.0",
     "download-git-repo": "^1.1.0",
@@ -30,6 +31,7 @@
     "inquirer": "^6.3.1",
     "ora": "^3.4.0",
     "shelljs": "^0.8.3",
+    "terminal-link": "^2.1.1",
     "which": "^1.3.1"
   }
 }

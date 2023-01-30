@@ -1,6 +1,6 @@
 {
   "name": "vet-cli",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "vue electron template cli",
   "bin": {
     "vet": "./bin/vet"

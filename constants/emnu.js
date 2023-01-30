@@ -15,6 +15,14 @@ const ENMU = {
         homepage: 'https://www.iviewui.com/docs/introduce',
         desc: 'View UI，即原先的 iView，是一套基于 Vue.js 的开源 UI 组件库，主要服务于 PC 界面的中后台产品。',
     },
+    vite: {
+        branch: '#iview-vite',
+        name: 'iview vite模板',
+        value: 'vite',
+        short: 'View UI',
+        homepage: 'https://www.iviewui.com/docs/introduce',
+        desc: 'View UI，即原先的 iView，是一套基于 Vue.js 的开源 UI 组件库，主要服务于 PC 界面的中后台产品。',
+    },
     element: {
         branch: '#element',
         name: 'element模板',
